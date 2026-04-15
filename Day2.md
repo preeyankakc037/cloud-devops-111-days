@@ -2,7 +2,7 @@
 
 **Day2**
 
-1. History of AWS 
+1. History of AWS Le
 
     > Amazon Web Services (AWS) began in the early 2000s when Amazon realized its internal teams were repeatedly rebuilding the same infrastructure like servers and storage, slowing innovation. Under the vision of Jeff Bezos and leadership of Andy Jassy, Amazon transformed these internal tools into a public service, launching AWS in 2006 with services like S3 and EC2. This introduced the concept of cloud computing allowing businesses to access scalable computing resources on demand without owning physical hardware. AWS quickly gained adoption from startups and enterprises, fundamentally changing how software is built and deployed by making infrastructure faster, cheaper, and highly scalable, and ultimately revolutionizing the tech industry.
     
