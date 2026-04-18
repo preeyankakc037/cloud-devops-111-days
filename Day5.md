@@ -40,7 +40,8 @@ CIDR (Classless Inter-Domain Routing) is a method used to organize and allocate 
 The number after the slash (called the prefix) tells how many addresses are reserved for the network and how many are available for devices. A smaller number like /16 means a larger network with many devices, while a larger number like /24 or /26 means a smaller network with fewer devices. For example, /24 typically allows around 254 devices. In simple terms, CIDR helps control network size, reduce IP wastage, and make networking more flexible, especially in systems like AWS where you define your own network ranges.
 
 ![alt text](image-1.png)
-my subnet is has 3 times 255 which means /24 which means around 254 devices can be connected in this IP
+
+my subnet  has 3 times 255 which means /24 which means around 254 devices can be connected in this IP
 
 **VPC (Virtual Private Cloud)**
 
