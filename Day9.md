@@ -41,3 +41,24 @@ Elastic Load Balancing is a service that automatically distributes incoming appl
 **Bastion Host**
 
 A Bastion Host is a special EC2 instance placed in a public subnet that acts as a secure entry point to access private resources inside a VPC. Instead of exposing private servers directly to the internet, administrators first connect to the bastion host (via SSH or RDP), and then jump into private instances. It is mainly used for secure administrative access to private resources without exposing them publicly.
+
+
+**Amazon EventBridge**
+
+Amazon EventBridge is a serverless event bus service that connects applications using events in real time. It allows different AWS services, SaaS applications, and custom apps to communicate when something happens (like “file uploaded”, “order placed”, “EC2 state changed”). It automatically routes events to targets like Lambda, SQS, or Step Functions. It is mainly used for event-driven architecture and decoupling systems using real-time events.
+
+**Amazon AppFlow**
+
+Amazon AppFlow is a fully managed integration service that securely transfers data between SaaS applications (like Salesforce, Zendesk, Google Analytics) and AWS services (like S3, Redshift). It allows you to move data without writing code and supports filtering, transformation, and encryption. It is mainly used for secure, no-code data movement between SaaS apps and AWS.
+
+**AWS Direct Connect**
+
+AWS Direct Connect is a dedicated private network connection between your on-premises data center and AWS. Instead of using the public internet, it provides a private, high-speed, low-latency, and more stable connection. It is mainly used for secure, consistent, high-performance hybrid cloud connectivity.
+
+**Amazon Macie**
+
+Amazon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data stored in S3. It identifies sensitive information like personal data and alerts you when it is exposed or misconfigured. It is mainly used for data security, compliance, and detecting sensitive data exposure in S3.
+
+**PII (Personally Identifiable Information)**
+
+PII (Personally Identifiable Information) refers to any data that can identify an individual directly or indirectly, such as name, email, phone number, Aadhaar/ID numbers, or address. In AWS, PII is important for compliance and security, and services like Macie help detect and protect it in storage systems like S3.
