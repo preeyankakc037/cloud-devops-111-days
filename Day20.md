@@ -12,7 +12,12 @@ It performs 3 Majors functions:
 
 * Health Checking: Monitors the health and availability of endpoints, automatically routing traffic away from unhealthy targets.
 
-![alt text](image-12.png)
+<!-- ![alt text](image-12.png)
 
 
-![alt text](image-13.png)
+![alt text](image-13.png) -->
+
+<p align="center">
+  <img src="image-12.png" height="300" />
+  <img src="image-13.png" height="300" />
+</p>
