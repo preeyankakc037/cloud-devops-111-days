@@ -21,3 +21,4 @@ SQS is a message queue that helps different parts of your system talk without be
   <img src="image-25.png" width="30%" />
 
 </p>
+
