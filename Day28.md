@@ -5,7 +5,7 @@ Today I studied about Amazon EFS(Elastic File System)
 
 ![alt text](image-31.png)
 
-**Amazon EFS – Elastic File System**
+# **Amazon EFS – Elastic File System**
 
 **Throughput Modes**
 
@@ -24,7 +24,8 @@ Bursting:
 Best for unpredictable or spiky workloads.
 
 
-**Amazon EFS – Storage Tiers (Lifecycle management)**
+
+# **Amazon EFS – Storage Tiers (Lifecycle management)**
 
 Amazon EFS provides multiple storage tiers for cost optimization based on access patterns:
 
