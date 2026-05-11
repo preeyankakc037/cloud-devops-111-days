@@ -22,3 +22,16 @@ Bursting:
 * Automatically scales throughput up or down based on workload demands.
 * Supports up to several GiB/s (up to 3 GiB/s reads, 1 GiB/s writes).
 Best for unpredictable or spiky workloads.
+
+
+**Amazon EFS – Storage Tiers (Lifecycle management)**
+
+Amazon EFS provides multiple storage tiers for cost optimization based on access patterns:
+
+* Standard: For frequently accessed files, offering multi-AZ durability, suitable for production workloads.
+* Infrequent Access (EFS-IA): Less frequently accessed files, lower storage cost but with retrieval fees.
+* Archive: For rarely accessed data (a few times per year), roughly 50% cheaper than IA.
+* Lifecycle management lets you automate transitions between these tiers based on file age or last access:
+
+Optionally, files accessed in IA or Archive can be moved back to Standard to improve latency.
+
