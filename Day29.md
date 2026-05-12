@@ -66,3 +66,42 @@ It is commonly used as:
 - Query structured and semi-structured data such as CSV, JSON, and Parquet files
 
 ---
+
+## Performance Optimization
+
+### Use Columnar Formats
+- Prefer Parquet or ORC formats
+- Reduces data scanned and improves performance
+
+### Partitioning Data
+- Organize data by fields like date or region
+- Example structure: year=2026/month=05/day=12
+
+### Compression
+- Reduces storage size and query cost
+
+### Avoid SELECT *
+- Select only required columns to reduce scanned data
+
+---
+
+## Pricing Model
+
+- Charged based on data scanned per query
+- No infrastructure or idle costs
+- Storage costs remain in Amazon S3
+
+---
+
+## Key Insight
+
+Amazon Athena is best suited for scenarios where:
+- Data already exists in Amazon S3
+- Fast SQL-based analysis is required
+- There is no need for infrastructure management
+
+---
+
+## Final Takeaway
+
+Amazon Athena simplifies big data analytics by allowing direct SQL queries on Amazon S3 data without managing any servers, making it a core service for serverless data lake architectures.
