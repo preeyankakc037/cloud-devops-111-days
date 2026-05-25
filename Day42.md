@@ -1,8 +1,7 @@
-# Day 41 – AWS Notes
+# Day 42 – AWS Notes
+#111DaysOfLearningForChange
 
-## #111DaysOfLearningForChange
-
----
+Today I practice questions related to my SSA-CO3 Exam and here are some of the Learnings. 
 
 ## Global Accelerator
 
