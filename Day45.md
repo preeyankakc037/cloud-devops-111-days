@@ -1,137 +1,127 @@
-# Day 45 – AWS Storage Services
+# Day 46 – AWS Management, Governance & Media Services
 
-## #111DaysOfLearningForChange
+## Management and Governance
 
----
+### AWS Auto Scaling
 
-## AWS Backup
+* Central umbrella service to manage Auto Scaling across services
+* Supports EC2, ECS, DynamoDB, Aurora, and more
+* Unified interface for scaling policies
 
-* Centralized, policy-driven backup service
-* Supports:
+### AWS CloudFormation
 
-  * EC2
-  * EBS
-  * RDS
-  * DynamoDB
-  * EFS
-  * FSx
-  * Storage Gateway
-* Simplifies compliance with backup retention policies
+* Infrastructure as Code (IaC)
+* Define resources using JSON or YAML templates
+* Deploy as reusable stacks
 
----
+### AWS CloudTrail
 
-## Amazon EBS (Elastic Block Store)
+* Logs all API activity in your AWS account
+* Tracks: who, what, when, where
+* Critical for auditing and compliance
 
-* Persistent block storage for EC2
-* Survives instance stop/restart
-* Exists within a single Availability Zone
+### Amazon CloudWatch
 
-### Types
+* Monitoring for metrics, logs, and events
+* Create alarms and dashboards
+* Integrates with Auto Scaling and Lambda
 
-* gp3: General purpose SSD
-* io2: High IOPS SSD
-* st1: Throughput-optimized HDD
-* sc1: Cold HDD
+### AWS CLI
 
----
+* Command-line tool for AWS interaction
+* Enables automation via scripts
+* Useful for administration tasks
 
-## Amazon EFS (Elastic File System)
+### AWS Compute Optimizer
 
-* Managed NFS file system
-* Shared across multiple Linux EC2 instances
-* Multi-AZ by design
-* Automatically scales
-* Pay-as-you-use pricing model
+* Uses ML to analyze resource usage
+* Recommends optimal configurations
+* Covers EC2, EBS, Lambda, ECS
 
----
+### AWS Config
 
-## Amazon FSx
+* Tracks configuration changes over time
+* Maintains resource history
+* Enables compliance rules
 
-Managed file systems for specialized workloads:
+### AWS Control Tower
 
-* FSx for Lustre
+* Sets up secure multi-account environment
+* Provides landing zone using best practices
+* Built on AWS Organizations
 
-  * High-performance workloads (HPC, ML)
-  * Integrates with S3
+### AWS Health Dashboard
 
-* FSx for Windows File Server
+* Personalized alerts for AWS events
+* Notifies about outages and maintenance
+* Resource-specific impact insights
 
-  * SMB protocol
-  * Active Directory integration
+### AWS License Manager
 
-* FSx for NetApp ONTAP
+* Manages BYOL licenses
+* Tracks usage across EC2 and on-prem
+* Supports SQL Server, Oracle, etc.
 
-  * Multi-protocol support
+### Amazon Managed Grafana
 
-* FSx for OpenZFS
+* Managed visualization service
+* Integrates with CloudWatch, Prometheus
+* Dashboards for metrics and observability
 
-  * Supports ZFS-based migrations
+### Amazon Managed Service for Prometheus
 
----
+* Managed time-series monitoring
+* Prometheus-compatible queries
+* Integrates with EKS and Grafana
 
-## Amazon S3
+### AWS Organizations
 
-* Object storage service
-* 99.999999999% (11 nines) durability
-* Data stored across at least 3 Availability Zones
+* Multi-account management
+* Consolidated billing
+* Organizational Units (OUs)
+* Service Control Policies (SCPs)
 
-### Features
+### AWS Proton
 
-* Versioning
-* Lifecycle policies
-* Replication
-* Multiple storage classes:
+* Managed deployment for container/serverless apps
+* Platform teams define templates
+* Developers self-serve deployments
 
-  * Standard
-  * Intelligent-Tiering
-  * Standard-IA
-  * Glacier
-  * Deep Archive
+### AWS Service Catalog
 
----
+* Centralized approved service templates
+* Uses CloudFormation
+* Enables self-service provisioning
 
-## Amazon S3 Glacier
+### AWS Systems Manager
 
-* Low-cost archival storage within S3
+* Operations management hub
+* Tools: Run Command, Patch Manager, Session Manager, Parameter Store
+* Works with EC2 and on-prem servers
 
-### Retrieval Options
+### AWS Trusted Advisor
 
-* Instant Retrieval: Milliseconds
+* Best practice recommendations
+* Categories: cost, security, performance, fault tolerance
+* Some checks require premium support
 
-* Flexible Retrieval: 1 minute to 12 hours
+### AWS Well-Architected Tool
 
-* Deep Archive: 12 to 48 hours
-
-* Most cost-effective for long-term storage
-
----
-
-## AWS Storage Gateway
-
-* Hybrid storage service connecting on-premises to AWS
-
-### Modes
-
-* S3 File Gateway
-
-  * NFS/SMB access to S3
-
-* Volume Gateway
-
-  * iSCSI-based block storage
-
-* Tape Gateway
-
-  * Virtual tape library for backups
+* Reviews workloads against 6 pillars
+* Identifies risks and improvements
 
 ---
 
-## Summary
+## Media Services
 
-* AWS Backup centralizes backup management
-* EBS is block storage for EC2 (single AZ)
-* EFS is shared file storage for Linux (multi-AZ)
-* FSx provides specialized file systems
-* S3 is durable object storage with multiple tiers
-* Glacier is for archival storage
-* Storage Gateway enables hybrid cloud storage
+### Amazon Elastic Transcoder
+
+* Legacy video transcoding service
+* Converts media files from S3
+* Optimizes playback across devices
+
+### Amazon Kinesis Video Streams
+
+* Ingests and stores video streams
+* Supports real-time processing
+* Integrates with Rekognition for analytics
