@@ -6,7 +6,7 @@ Today I studied Amazon Route 53 and its DNS routing policies, health checks, and
 
 ## Amazon Route 53
 
-- Fully managed DNS (Domain Name System) service
+- Fully managed DNS (Domain Name System) seDayrvice
 - Routes user requests to AWS or external resources
 - Supports domain registration, DNS resolution, and traffic routing policies
 
