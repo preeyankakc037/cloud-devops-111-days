@@ -1,4 +1,4 @@
-# Day 77 – Day2 Kubernetes
+# Day 78 – Day2 Kubernetes
 
 
 ## MASTER NODE 
