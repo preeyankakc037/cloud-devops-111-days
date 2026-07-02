@@ -36,3 +36,4 @@ The key component of the clusters are:
 We need Pods in Kubernetes because they serve as the smallest deployable unit of execution, acting as a crucial abstraction layer over raw containers. While platforms like Docker manage individual containers, Kubernetes manages Pods. This architectural choice resolves fundamental networking, storage, and architectural limitations of running multi-container applications at scale.
 
 ![alt text](image-67.png)
+
