@@ -1,4 +1,3 @@
-```md id="day99k8s"
 # Day 99 – Kubernetes Autoscaling (Horizontal Pod Autoscaler)
 
 ## Overview  
@@ -39,4 +38,3 @@ This felt like a very powerful feature. Instead of worrying about handling traff
 
 ## Summary  
 Today I learned about Kubernetes autoscaling using HPA. I understood how applications can automatically scale based on demand, which is essential for handling real-world traffic.
-```
